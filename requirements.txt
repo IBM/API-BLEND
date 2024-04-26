@@ -1,0 +1,8 @@
+jsonlines==4.0.0
+requests==2.31.0
+tqdm==4.66.2
+python-dotenv==1.0.1
+spacy==3.7.2
+nltk==3.8.1
+rapidfuzz==3.6.2
+chardet==5.2.0
