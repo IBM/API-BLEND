@@ -41,7 +41,7 @@ python llm-based-generation/llm-data-gen.py \
 	--model google/flan-t5-xxl
 ```
 
-### 1. Grammar-based Data Generation
+### 2. Grammar-based Data Generation
 - ##### Raw Data:
   Using grammar based generation, we have generated 4 datasets. Please download the raw datasets from the following links 
   - ATIS: [Link](https://www.kaggle.com/datasets/hassanamin/atis-airlinetravelinformationsystem)
