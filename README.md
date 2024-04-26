@@ -6,6 +6,7 @@ Paper Link: https://arxiv.org/abs/2402.15491
 
 API-BLEND is a collection of 10 datasets for training and systematic testing of tool-augmented LLMs. The datasets mimic real-world scenarios involving API-tasks such as API / tool detection, slot filling, and sequencing of the detected APIs. Out of 10 datasets we have curated 6 datasets from the existing datasets, and the other 4, we have used them off-the-shelf (for OOD tests).
 
+**Note:** Currently, we are in the process of obtaining license clearance to release the curated datasets directly. So, for the time, we have outlined the steps involved in curating them from the raw datasets. 
 ## Install Dependencies
 
 ```commandline
@@ -66,5 +67,3 @@ python llm-based-generation/llm-data-gen.py \
       --data_dir data/raw/TOPv2_Dataset \
       --save_dir data/processed/SeqTopV2
   ```     
-
-  - **SeqToolQA**:
